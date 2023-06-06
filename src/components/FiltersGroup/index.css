@@ -1,0 +1,49 @@
+.filters-section {
+}
+.filter-group-container {
+  border-top: 2.5px solid #475569;
+  padding-top: 13px;
+}
+.filter-group-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+}
+.filters-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.filter-label {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.checkbox-input {
+  margin-right: 7px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-group-heading {
+    font-size: 18px;
+  }
+  .filter-item{
+      margin-bottom: 12px;
+  }
+  .checkbox-input {
+    font-size: 100px;
+  }
+  .filter-label {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,133 @@
+.jobs-page {
+  background-color: #000000;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+.jobs-page-body {
+  width: 90%;
+  margin-top: 25px;
+}
+.mobile-search-bar-container {
+  display: flex;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+.desktop-search-bar-container {
+  display: none;
+}
+.search-input-field {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px;
+  padding-left: 10px;
+  flex-grow: 1;
+  color: #ffffff;
+}
+.search-icon-button {
+  background-color: #272727;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  outline: none;
+}
+.search-icon {
+  font-size: 14px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #cbd5e1;
+}
+.profile-and-filters-section {
+  margin-bottom: 25px;
+}
+
+.jobs-list-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-page {
+    height: 90vh;
+  }
+  .jobs-page-body {
+    width: 85%;
+    margin-top: 35px;
+    display: flex;
+  }
+  .profile-and-filters-section {
+    width: 30%;
+    max-width: 320px;
+    margin-right: 35px;
+  }
+  .mobile-search-bar-container {
+    display: none;
+  }
+  .desktop-search-bar-container {
+    display: block;
+    display: flex;
+    border: 1px solid #475569;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    width: 55%;
+    align-self: flex-start;
+  }
+  .search-input-field {
+    padding: 12px;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+}
+
+.jobs-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.failure-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.failure-view-img {
+  width: 100%;
+}
+.failure-view-msg {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 0px;
+}
+.failure-view-description {
+  color: #b6c5ff;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .failure-view-content {
+    width: 50%;
+  }
+  .failure-view-msg {
+    font-size: 19px;
+  }
+  .failure-view-description {
+    font-size: 15px;
+  }
+}

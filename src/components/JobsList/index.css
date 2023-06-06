@@ -1,0 +1,36 @@
+.jobs-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.no-jobs-view-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-jobs-view-img {
+  width: 90%;
+}
+.no-jobs-view-msg {
+  color: #f8fafc;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.no-jobs-description {
+  color: #b6c5ff;
+  margin-top: 0px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-view-container {
+    margin-top: 100px;
+  }
+  .no-jobs-view-img {
+    width: 50%;
+  }
+}

@@ -1,0 +1,47 @@
+.job-details-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-details-failure-img {
+  width: 90%;
+}
+
+.job-details-failure-msg {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.job-details-failure-caption {
+  font-family: 'Roboto';
+  color: #b6c5ff;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 15px;
+  width: 70%;
+  line-height: 25px;
+}
+.job-details-retry-button {
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 3px;
+  padding: 12px 30px 12px 30px;
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-failure-msg {
+    font-size: 35px;
+    margin-bottom: 13px;
+  }
+  .job-details-failure-caption {
+    font-size: 12px;
+  }
+}
